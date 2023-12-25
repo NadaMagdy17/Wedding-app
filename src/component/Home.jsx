@@ -1,8 +1,17 @@
 import React from 'react'
-
+import Pages from "./Pages";
+import Nav from './Nav';
+import Cardd from './Cardd';
+import Footer from "./Footer";
 const Home =()=>{
     return(
-        <div>Home</div>
+        <div>
+            <Nav />
+            <Cardd />
+            <Pages />
+            <Footer />
+
+        </div>
     )
 };
 export default Home;
