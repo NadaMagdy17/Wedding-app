@@ -10,6 +10,7 @@ const Home =()=>{
             <Cardd />
             <Pages />
             <Footer />
+            <Nav />
 
         </div>
     )

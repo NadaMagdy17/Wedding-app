@@ -1,6 +1,5 @@
 import React from 'react'
-import left from '../assets/chevron-left.jpg'
-import right from '../assets/chevron-right.png'
+
 import { FaAngleLeft,FaAngleRight } from "react-icons/fa";
 const Pages =()=>{
 
@@ -18,9 +17,9 @@ const Pages =()=>{
                 <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
 
                     <div>
-                        <nav className="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
+                        <nav className="isolate inline-flex -space-x-px  shadow-sm" aria-label="Pagination">
                             <a href="#"
-                               className="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
+                               className="relative inline-flex items-center px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
                                 <FaAngleLeft className="h-5 w-5 text-red-900" />
                                 <span className="">Previous</span>
                             </a>
@@ -31,7 +30,7 @@ const Pages =()=>{
                             <a href="#" className="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
                                 2
                             </a>
-                            <a href="#" className="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex">
+                            <a href="#" className="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1   ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex">
                                 3
                             </a>
                             <a href="#" className="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex">
